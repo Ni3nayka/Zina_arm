@@ -1,0 +1,1 @@
+C:\Users\User\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.0.1\libraries\ESP8266WiFi
