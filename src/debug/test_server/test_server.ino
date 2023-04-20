@@ -16,6 +16,8 @@ ESP8266WebServer server(80);
 void handleSentVar() {
   Serial.println(server.hostHeader()); // client IP
   Serial.println(server.uri());
+  //for (int i = 0; i<10; i++) Serial.println(server.pathArg(i));
+  Serial.println("-----------------------");
   if (server.hasArg("sensor_reading")) { // this is the variable sent from the client
     int readingInt = server.arg("sensor_reading").toInt();
     char readingToPrint[5];
